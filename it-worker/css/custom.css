@@ -1,0 +1,6 @@
+/* your styles go here */
+
+.navbar-fixed-top {
+	top: 75px;
+	z-index: 50;
+}
