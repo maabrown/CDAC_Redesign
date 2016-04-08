@@ -24,3 +24,37 @@ div.blockContentStyling {
 .regionFooterStyling {
 	background-color: #e7f0f5;
 }
+
+#intro .item h1 {
+	opacity: 1;
+	text-align: left;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline;
+}
+
+#intro .item h2 {
+	opacity: 1;
+	text-align: left;
+	margin-bottom: 12px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline;
+}
+
+.carousel-caption {
+	text-align: left;
+}
+
+.introTextSpan {
+	display: block;
+}
+
+.missionStatementText {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#missionStatement {
+	background-color: #004273;
+}
