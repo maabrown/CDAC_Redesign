@@ -4,3 +4,23 @@
 	top: 75px;
 	z-index: 50;
 }
+
+.tertiaryContentWrapperStyling {
+	font-size: 14px;
+	font-family: "SourceSansProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footerWrapperStyling {
+	font-size: 14px;
+	font-family: "SourceSansProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e7f0f5
+}
+
+div.blockContentStyling {
+	background-color: #e7f0f5;
+	line-height: 1.4;
+}
+
+.regionFooterStyling {
+	background-color: #e7f0f5;
+}
