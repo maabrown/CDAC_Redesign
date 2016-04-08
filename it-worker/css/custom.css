@@ -58,3 +58,13 @@ div.blockContentStyling {
 #missionStatement {
 	background-color: #004273;
 }
+
+ul.nav {
+	float: none;
+	text-align: center;
+}
+
+li.navLi {
+	float:none;
+	display: inline-block;
+}
