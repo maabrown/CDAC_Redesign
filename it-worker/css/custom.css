@@ -68,3 +68,16 @@ li.navLi {
 	float:none;
 	display: inline-block;
 }
+
+div.generalFieldsKeywords h5, p {
+	display: inline;
+}
+
+div.generalFieldsTitle h4 {
+	font-weight: bold;
+}
+
+div.generalFieldsDescription {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
