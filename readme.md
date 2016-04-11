@@ -70,9 +70,8 @@ ondrique, (ahoj@ondrejsvestka.cz)
     Initial release
 
 
+**Additional Plugin**
 
-
-
-
+- FullCalendar ([http://fullcalendar.io/](http://fullcalendar.io/))
 
 
