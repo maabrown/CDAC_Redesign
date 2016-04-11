@@ -464,3 +464,37 @@ function contactForm() {
 	return false; // avoid to execute the actual submit of the form.
     });
 }
+
+var $frontEndIcon = $('#frontEndIcon');
+var $backEndIcon = $('#backEndIcon');
+var $dataScienceIcon = $('#dataScienceIcon');
+var $UXIcon = $('#UXIcon');
+var $fieldsTitle = $('.generalFieldsTitle h4');
+var $fieldsDescription = $('.generalFieldsDescription');
+var $fieldsKeywords = $('.generalFieldsKeywords p')
+
+$frontEndIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('Front-End Development')
+	$fieldsKeywords.text(' HTML, CSS, JavaScript, jQuery, Backbone.js, Handlebars')
+	console.log($fieldsKeywords.text());
+})
+
+$backEndIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('Back-End Development')
+	$fieldsKeywords.text(' Docker, SQL, Django')
+})
+
+$dataScienceIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('Data-Science');
+	$fieldsKeywords.text(' R, Python, RStudio, Python Notebook, Data Visualization')
+
+})
+
+$UXIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('UX/UI Design');
+	$fieldsKeywords.text(' User Experience, User Design, User Stories, Wireframes, Mock-Ups')
+})
