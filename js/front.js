@@ -501,4 +501,28 @@ $UXIcon.click(function(e) {
 
 $('#calendar').fullCalendar({
         // put your options and callbacks here
+        eventSources: [
+        {
+        	events: [
+        	{
+        		title: 'Intro to Photoshop & Design',
+        		start: '2016-04-19'
+        	},
+        	{
+        		title: 'Data Wrangling with Pandas',
+        		start: '2016-06-13'
+        	}, 
+        	{
+        		title: 'Data Storytelling with R',
+        		start: '2016-06-01'
+        	},
+        	{
+        		title: 'Intro to Data Analysis',
+        		start: '2016-05-17'
+        	},
+        	{
+        		title: 'Intro to R',
+        		start: '2016-05-02'
+        	}]
+        }]
 })
