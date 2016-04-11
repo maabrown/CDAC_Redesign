@@ -127,3 +127,7 @@ span.courseSpanTag {
 .design-icons{
 	width: 100px;
 }
+
+body.modal-open {
+	overflow: visible;
+}
