@@ -29,7 +29,6 @@ div.blockContentStyling {
 	opacity: 1;
 	text-align: left;
 	text-transform: uppercase;
-	background-color: rgba(0, 0, 0, 0.6);
 	display: inline;
 }
 
@@ -37,7 +36,6 @@ div.blockContentStyling {
 	opacity: 1;
 	text-align: left;
 	margin-bottom: 12px;
-	background-color: rgba(0, 0, 0, 0.6);
 	display: inline;
 }
 
@@ -47,6 +45,7 @@ div.blockContentStyling {
 
 .introTextSpan {
 	display: block;
+	text-align: center;
 }
 
 .missionStatementText {
@@ -56,7 +55,7 @@ div.blockContentStyling {
 }
 
 #missionStatement {
-	background-color: #004273;
+	background-color: #002952;
 }
 
 ul.nav {
@@ -99,6 +98,10 @@ span.courseSpanTag {
 	margin-top: 20px;
 }
 
+#courses{
+	background: #002952
+}
+
 #detail .buttons a.btn.classRegistrationButton {
 	margin: 30px 10px 10px 0px;
 }
@@ -119,4 +122,8 @@ span.courseSpanTag {
 .panel-body p {
 	font-style: italic;
 	display: block;
+}
+
+.design-icons{
+	width: 100px;
 }

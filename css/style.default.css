@@ -171,13 +171,15 @@ INTRO
   height: 100%;
 }
 #intro .item {
-  height: 100%;
-  background: url('../images/lighterLibraryImage.jpg') center center no-repeat;
+  height: 100%;       
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+  rgba(0,0,0,0.55) url('../images/newLibraryImage.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   -webkit-backface-visibility: hidden;
+
 }
 #intro .item .logo {
   margin-bottom: 120px;
@@ -321,8 +323,8 @@ SERVICES
 .services .icon {
   font-size: 60px;
   text-align: center;
-  text-shadow: 5px 5px 0 #2d7b6b;
 }
+
 .services .heading {
   font-size: 30px;
   font-weight: 500;
