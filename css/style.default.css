@@ -29,7 +29,7 @@ NAVBAR
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
-  border-top: solid 5px #4fbfa8;
+  border-top: solid 5px #4683B9;
 }
 @media (max-width: 767px) {
   .navbar ul.nav > li > a:hover {
@@ -39,7 +39,7 @@ NAVBAR
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px #4fbfa8;
+  border-top: solid 5px #4683B9;
   font-weight: bold;
 }
 @media (max-width: 767px) {
@@ -352,8 +352,8 @@ WORKS / REFERENCES
   list-style-type: none;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 30px;
-  border-top: solid 1px #4fbfa8;
-  border-bottom: solid 1px #4fbfa8;
+  border-top: solid 1px #4683B9;
+  border-bottom: solid 1px #4683B9;
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -371,6 +371,7 @@ WORKS / REFERENCES
 #filter li:hover a {
   color: #fff;
   text-decoration: none;
+  background-color: #002952;
 }
 #references-masonry {
   margin: 0 15px;
@@ -1043,7 +1044,7 @@ strong {
 .navbar-brand {
   float: left;
   padding: 29px 15px;
-  color: #4fbfa8;
+  color: #002952;
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
   text-transform: uppercase;
@@ -1243,12 +1244,12 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #4fbfa8;
+  color: #4683B9;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #348e7b;
+  color: #4683B9;
   text-decoration: underline;
 }
 a:focus {
@@ -1619,10 +1620,10 @@ address {
   border-color: #4fbfa8;
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #4fbfa8;
+  border-top-color: #4683B9;
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #4fbfa8;
+  border-bottom-color: #4683B9;
 }
 .panel-primary .panel-title {
   font-weight: 300;
@@ -1696,13 +1697,13 @@ a.list-group-item.active > .badge,
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #4fbfa8;
+  border-top-color: #4683B9;
 }
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   left: 5px;
   border-width: 5px 5px 0;
-  border-top-color: #4fbfa8;
+  border-top-color: #4683B9;
 }
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
