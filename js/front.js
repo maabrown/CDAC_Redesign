@@ -498,3 +498,7 @@ $UXIcon.click(function(e) {
 	$fieldsTitle.text('UX/UI Design');
 	$fieldsKeywords.text(' User Experience, User Design, User Stories, Wireframes, Mock-Ups')
 })
+
+$('#calendar').fullCalendar({
+        // put your options and callbacks here
+})
