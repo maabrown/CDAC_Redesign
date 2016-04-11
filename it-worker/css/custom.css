@@ -85,3 +85,38 @@ div.generalFieldsDescription {
 div.section#references {
 	padding-top: 10px;
 }
+
+p.courseListingKeys {
+	font-weight: bold;
+}
+
+p.courseDescription {
+	font-style: italic; 
+}
+
+span.courseSpanTag {
+	display: block;
+	margin-top: 20px;
+}
+
+#detail .buttons a.btn.classRegistrationButton {
+	margin: 30px 10px 10px 0px;
+}
+
+.panel-title {
+	text-align: left;
+}
+
+.panel-body {
+	text-align: left;
+}
+
+.panel-body span {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.panel-body p {
+	font-style: italic;
+	display: block;
+}
