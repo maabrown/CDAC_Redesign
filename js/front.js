@@ -464,3 +464,85 @@ function contactForm() {
 	return false; // avoid to execute the actual submit of the form.
     });
 }
+
+var $frontEndIcon = $('#frontEndIcon');
+var $backEndIcon = $('#backEndIcon');
+var $dataScienceIcon = $('#dataScienceIcon');
+var $UXIcon = $('#UXIcon');
+var $fieldsTitle = $('.generalFieldsTitle h4');
+var $fieldsDescription = $('.generalFieldsDescription');
+var $fieldsKeywords = $('.generalFieldsKeywords p')
+
+$frontEndIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('Front-End Development')
+	$fieldsKeywords.text(' HTML, CSS, JavaScript, jQuery, Backbone.js, Handlebars')
+	console.log($fieldsKeywords.text());
+})
+
+$backEndIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('Back-End Development')
+	$fieldsKeywords.text(' Docker, SQL, Django')
+})
+
+$dataScienceIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('Data-Science');
+	$fieldsKeywords.text(' R, Python, RStudio, Python Notebook, Data Visualization')
+
+})
+
+$UXIcon.click(function(e) {
+	e.preventDefault();
+	$fieldsTitle.text('UX/UI Design');
+	$fieldsKeywords.text(' User Experience, User Design, User Stories, Wireframes, Mock-Ups')
+})
+
+var $modalTitle = $('#modalTitle');
+var $modalBody = $('#modalBody');
+var $eventURL = $('#eventUrl');
+var $fullCalModal = $('#fullCalModal');
+
+$('#calendar').fullCalendar({
+        // put your options and callbacks here
+        events: [
+        	{
+        		title: 'Intro to Photoshop & Design',
+        		start: '2016-04-19',
+        		description: 'Learn Photoshop and Design',
+        		url: 'http://photoshopCDS.eventbrite.com'
+        	},
+        	{
+        		title: 'Data Wrangling with Pandas',
+        		start: '2016-06-13',
+        		description: 'Data Wrangling with Pandas is fun',
+        		url: 'http://datawranglingCDS.eventbrite.com'
+        	}, 
+        	{
+        		title: 'Data Storytelling with R',
+        		start: '2016-06-01',
+        		description: 'Data Storytelling with R is hilarious',
+        		url: 'http://datastorytellingCDS.eventbrite.com'
+        	},
+        	{
+        		title: 'Intro to Data Analysis',
+        		start: '2016-05-17',
+        		description: 'Data Analysis takes some time',
+        		url: 'http://dataanalyisCDS.eventbrite.com'
+        	},
+        	{
+        		title: 'Intro to R',
+        		start: '2016-05-02',
+        		description: 'Come learn R',
+        		url: 'http://introtoRCDS.eventbrite.com'
+        	}
+        ],
+        eventClick: function(event, jsEvent, view) {
+        	$modalTitle.html(event.title);
+        	$modalBody.html(event.description);
+        	$eventURL.attr('href', event.url);
+        	$fullCalModal.modal();
+        	return false;
+        }
+})

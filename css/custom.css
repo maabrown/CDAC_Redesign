@@ -1,0 +1,126 @@
+/* your styles go here */
+
+.navbar-fixed-top {
+	top: 75px;
+	z-index: 50;
+}
+
+.tertiaryContentWrapperStyling {
+	font-size: 14px;
+	font-family: "SourceSansProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footerWrapperStyling {
+	font-size: 14px;
+	font-family: "SourceSansProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e7f0f5
+}
+
+div.blockContentStyling {
+	background-color: #e7f0f5;
+	line-height: 1.4;
+}
+
+.regionFooterStyling {
+	background-color: #e7f0f5;
+}
+
+#intro .item h1 {
+	opacity: 1;
+	text-align: left;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline;
+}
+
+#intro .item h2 {
+	opacity: 1;
+	text-align: left;
+	margin-bottom: 12px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline;
+}
+
+.carousel-caption {
+	text-align: left;
+}
+
+.introTextSpan {
+	display: block;
+}
+
+.missionStatementText {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#missionStatement {
+	background-color: #004273;
+}
+
+ul.nav {
+	float: none;
+	text-align: center;
+}
+
+li.navLi {
+	float:none;
+	display: inline-block;
+}
+
+div.generalFieldsKeywords h5, p {
+	display: inline;
+}
+
+div.generalFieldsTitle h4 {
+	font-weight: bold;
+}
+
+div.generalFieldsDescription {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.section#references {
+	padding-top: 10px;
+}
+
+p.courseListingKeys {
+	font-weight: bold;
+}
+
+p.courseDescription {
+	font-style: italic; 
+}
+
+span.courseSpanTag {
+	display: block;
+	margin-top: 20px;
+}
+
+#detail .buttons a.btn.classRegistrationButton {
+	margin: 30px 10px 10px 0px;
+}
+
+.panel-title {
+	text-align: left;
+}
+
+.panel-body {
+	text-align: left;
+}
+
+.panel-body span {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.panel-body p {
+	font-style: italic;
+	display: block;
+}
+
+body.modal-open {
+	overflow: visible;
+}
