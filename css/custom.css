@@ -120,3 +120,7 @@ span.courseSpanTag {
 	font-style: italic;
 	display: block;
 }
+
+body.modal-open {
+	overflow: visible;
+}
