@@ -239,18 +239,18 @@ $('.reference-item').click(function (e) {
     var element = $(this);
     var title = element.find('.reference-title').text();
     var description = element.find('.reference-description').html();
+    slider = '';
+ //    images = element.find('.reference-description').data('images').split(',');
 
-    images = element.find('.reference-description').data('images').split(',');
-
-    if (images.length > 0) {
-	slider = '';
-	for (var i = 0; i < images.length; ++i) {
-	    slider = slider + '<div class="item"><img src=' + images[i] + ' alt="" class="img-responsive"></div>';
-	}
-    }
-    else {
-	slider = '';
-    }
+ //    if (images.length > 0) {
+	// slider = '';
+	// for (var i = 0; i < images.length; ++i) {
+	//     slider = slider + '<div class="item"><img src=' + images[i] + ' alt="" class="img-responsive"></div>';
+	// }
+ //    }
+ //    else {
+	// slider = '';
+ //    }
 
 
 
@@ -298,7 +298,7 @@ function closeReference() {
 
     setTimeout(function () {
 	$('#detail').slideUp();
-	$('#detail-slider').data('owlCarousel').destroy();
+	//$('#detail-slider').data('owlCarousel').destroy();
 	$('#references-masonry').slideDown().animate({'opacity': 1}, 300).masonry('reloadItems').masonry();
 
     }, 300);
