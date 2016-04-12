@@ -477,19 +477,22 @@ $frontEndIcon.click(function(e) {
 	e.preventDefault();
 	$fieldsTitle.text('Front-End Development')
 	$fieldsKeywords.text(' HTML, CSS, JavaScript, jQuery, Backbone.js, Handlebars')
+	$fieldsDescription.text('Front-end development consists of using HTML, CSS, Javascript, jQuery, and other tools to give style and functionality to the front-facing part of a website.')
 	console.log($fieldsKeywords.text());
 })
 
 $backEndIcon.click(function(e) {
 	e.preventDefault();
 	$fieldsTitle.text('Back-End Development')
-	$fieldsKeywords.text(' Docker, SQL, Django')
+	$fieldsKeywords.text(' Python, Ruby, Rails, Docker, MySQL, Django')
+	$fieldsDescription.text('Back-end developers use languages such as Python, Ruby, or Node.js to program the guts of an application, along with server-side frameworks such as Flask, Django, Rails or Express.js, and also model, store, manipulate, and access data using databases like PostgreSQL, MySQL or MongoDB. ')
 })
 
 $dataScienceIcon.click(function(e) {
 	e.preventDefault();
 	$fieldsTitle.text('Data-Science');
 	$fieldsKeywords.text(' R, Python, RStudio, Python Notebook, Data Visualization')
+	$fieldsDescription.text('Data science is the practice of transforming raw data into insights, products, and applications to empower data-driven decision making.')
 
 })
 
@@ -497,6 +500,7 @@ $UXIcon.click(function(e) {
 	e.preventDefault();
 	$fieldsTitle.text('UX/UI Design');
 	$fieldsKeywords.text(' User Experience, User Design, User Stories, Wireframes, Mock-Ups')
+	$fieldsDescription.text('User experience(UX) design is the process of enhancing user satisfaction by improving the user interface (UI), accessibility, and pleasure of the product the user is interacting with.')
 })
 
 var $modalTitle = $('#modalTitle');
