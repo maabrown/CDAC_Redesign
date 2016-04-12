@@ -239,18 +239,18 @@ $('.reference-item').click(function (e) {
     var element = $(this);
     var title = element.find('.reference-title').text();
     var description = element.find('.reference-description').html();
+    slider = '';
+ //    images = element.find('.reference-description').data('images').split(',');
 
-    images = element.find('.reference-description').data('images').split(',');
-
-    if (images.length > 0) {
-	slider = '';
-	for (var i = 0; i < images.length; ++i) {
-	    slider = slider + '<div class="item"><img src=' + images[i] + ' alt="" class="img-responsive"></div>';
-	}
-    }
-    else {
-	slider = '';
-    }
+ //    if (images.length > 0) {
+	// slider = '';
+	// for (var i = 0; i < images.length; ++i) {
+	//     slider = slider + '<div class="item"><img src=' + images[i] + ' alt="" class="img-responsive"></div>';
+	// }
+ //    }
+ //    else {
+	// slider = '';
+ //    }
 
 
 
@@ -298,7 +298,7 @@ function closeReference() {
 
     setTimeout(function () {
 	$('#detail').slideUp();
-	$('#detail-slider').data('owlCarousel').destroy();
+	//$('#detail-slider').data('owlCarousel').destroy();
 	$('#references-masonry').slideDown().animate({'opacity': 1}, 300).masonry('reloadItems').masonry();
 
     }, 300);
@@ -514,31 +514,31 @@ $('#calendar').fullCalendar({
         	{
         		title: 'Intro to Photoshop & Design',
         		start: '2016-04-19',
-        		description: 'Learn Photoshop and Design',
+        		description: 'Learn the basic principles and concepts of design such as color theory, typography, branding, user experience design, and mobile design. Practice what you learn in photoshop, and walk away with a design by the end of the class.',
         		url: 'http://photoshopCDS.eventbrite.com'
         	},
         	{
         		title: 'Data Wrangling with Pandas',
         		start: '2016-06-13',
-        		description: 'Data Wrangling with Pandas is fun',
+        		description: 'Download, explore, and wrangle the Titanic passenger manifest dataset with an eye toward developing a predictive model for survival.',
         		url: 'http://datawranglingCDS.eventbrite.com'
         	}, 
         	{
         		title: 'Data Storytelling with R',
         		start: '2016-06-01',
-        		description: 'Data Storytelling with R is hilarious',
+        		description: 'Overview of internal R data visualization tools as well as use of Shiny, Leaflet, and Plotly for interactive visualizations.',
         		url: 'http://datastorytellingCDS.eventbrite.com'
         	},
         	{
         		title: 'Intro to Data Analysis',
         		start: '2016-05-17',
-        		description: 'Data Analysis takes some time',
+        		description: 'Given a dataset online, use R to load the data, compute summary statistics, and investigate correlations.',
         		url: 'http://dataanalyisCDS.eventbrite.com'
         	},
         	{
         		title: 'Intro to R',
         		start: '2016-05-02',
-        		description: 'Come learn R',
+        		description: 'Introductory course that covers basic R syntax, input and output, and basic statistical analysis.',
         		url: 'http://introtoRCDS.eventbrite.com'
         	}
         ],
