@@ -375,30 +375,31 @@ _________________________________________________________ -->
         <div class="section text-gradient" id="courses">
             <div class="container">
                 <div class="col-md-12">
-                    <h2 class="title" data-animate="fadeInDown">What We Offer</h2>
+                    <h2 class="title courseTitleStyling" data-animate="fadeInDown">What We Offer</h2>
+                    <h3 class="courseSubtitle"> Click an icon to learn more! </h3>
 
                     <div class="row services"> <!-- change this to courses after you copy the styles -->
 
-                        <div class="col-md-3" data-animate="fadeInUp">
-                            <div class="icon" id="frontEndIcon"><img src="images/code-icon.png" class="design-icons"> 
+                        <div class="col-md-3" id="frontEndIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/code-icon.png" class="design-icons"> 
                             </div>
                             <h3 class="heading">Front-End Development</h3>
                         </div>
 
-                        <div class="col-md-3" data-animate="fadeInUp">
-                            <div class="icon" id="backEndIcon"><img src="images/gear-icon.png" class="design-icons"> 
+                        <div class="col-md-3" id="backEndIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/gear-icon.png" class="design-icons"> 
                             </div>
                             <h3 class="heading">Back-End Development</h3>
                         </div>
 
-                        <div class="col-md-3" data-animate="fadeInUp">
-                            <div class="icon" id="dataScienceIcon"><img src="images/graph-icon.png" class="design-icons"> 
+                        <div class="col-md-3" id="dataScienceIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/graph-icon.png" class="design-icons"> 
                             </div>
                             <h3 class="heading">Data Science</h3>
                         </div>
 
-                        <div class="col-md-3" data-animate="fadeInUp">
-                            <div class="icon" id="UXIcon"><img src="images/hand-icon.png" class="design-icons"> 
+                        <div class="col-md-3" id="UXIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/hand-icon.png" class="design-icons"> 
                             </div>
                             <h3 class="heading">UX/UI Design</h3>
                         </div>
@@ -688,10 +689,8 @@ _________________________________________________________ -->
         <!-- *** REFERENCES END *** -->
         <!-- *** SERVICES END *** -->
 
-        <hr>
-
         <!-- *** CALENDAR START **** -->
-        <div class="container"> 
+<!--         <div class="container"> 
             <div class="col-md-9 col-md-offset-2" id="calendar"></div>
         </div>
 
@@ -708,7 +707,7 @@ _________________________________________________________ -->
             </div>
         </div>
     </div>
-</div>
+</div> -->
         <!-- *** CALENDAR END *** -->
 
         <hr>
@@ -874,7 +873,14 @@ _________________________________________________________ -->
                     <div class="row">
 
                         <div class="col-md-8 col-md-offset-2">
-                            <form id="contact-form" method="post" action="contact.php">
+                            <p style="color:#002952">Please send an email to:</p>
+                            <i class="fa fa-envelope-o fa-3x wow bounceIn envelopeIcon" data-wow-delay=".1s"></i>
+                            <h4><a href="mailto:data@doc.gov"><font color="#002952" font-size="130%"><strong>data@doc.gov</strong></font></a></h4>
+
+                            <div  style="align:center; display: inline-block;">
+                                <a href="http://www.commerce.gov/dataservice"><img alt="Commerce Data Service" id="cdcthumbnail" src="images/cdc-temp-logo-v2.png" ></a>
+                            </div>
+                            <!-- <form id="contact-form" method="post" action="contact.php">
 
                                 <div class="messages">
 
@@ -904,7 +910,7 @@ _________________________________________________________ -->
                                     </div>
                                 </div>
 
-                            </form>
+                            </form> -->
                         </div>
 
                     </div>

@@ -82,11 +82,13 @@ div.blockContentStyling {
 ul.nav {
 	float: none;
 	text-align: center;
+	font-size: xx-large;
 }
 
 li.navLi {
 	float:none;
 	display: inline-block;
+
 }
 
 div.generalFieldsKeywords h5, p {
@@ -151,4 +153,17 @@ span.courseSpanTag {
 
 body.modal-open {
 	overflow: visible;
+}
+
+h2.title.courseTitleStyling {
+	margin-bottom: 0px;
+}
+
+h3.courseSubtitle {
+	margin-bottom: 66px;
+}
+
+.envelopeIcon {
+	color: #004273;
+	display: block;
 }
