@@ -1,5 +1,9 @@
 /* your styles go here */
 
+body h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
 .navbar-fixed-top {
 	top: 75px;
 	z-index: 50;
@@ -83,11 +87,13 @@ ul.nav {
 	float: none;
 	text-align: center;
 	font-size: xx-large;
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 
 li.navLi {
 	float:none;
 	display: inline-block;
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
 
 }
 
