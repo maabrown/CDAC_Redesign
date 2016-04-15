@@ -1,6 +1,6 @@
 /* your styles go here */
 * {
-	
+
 	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 
@@ -170,7 +170,7 @@ body.modal-open {
 }
 
 h2.title.courseTitleStyling {
-	margin-bottom: 0px;
+	margin-bottom: 40px;
 }
 
 h3.courseSubtitle {
@@ -210,8 +210,9 @@ h2.title.FAQTitle {
 }
 
 #FAQ a {
-	color:white;
 	font-weight: bold;
+	color: white;
+
 }
 
 #FAQ .panel-default > .panel-heading {
@@ -225,3 +226,10 @@ h2.title.FAQTitle {
 #FAQ .panel-body {
 	color: white;
 }
+
+#FAQ .panel-body a {
+	font-weight: 900;
+	color:  #d2a404;
+	font-size: 18px;
+}
+
