@@ -1,4 +1,8 @@
 /* your styles go here */
+* {
+	
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
 
 body h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
