@@ -179,13 +179,13 @@ h3.courseSubtitle {
 }
 
 div#whatWeOffer {
-	background: #701214;
+	background: #004273;
 	background-image: none;
 }
 
 div#FAQ {
 	background-image: none;
-	background: #701214;
+	background: #004273;
 }
 
 h2.title.FAQTitle {
@@ -193,14 +193,14 @@ h2.title.FAQTitle {
 }
 
 #filter li.active, #filter li:hover {
-	background: #701214;
+	background: #004273;
 }
 
 #filter li {
-	border-top: solid 1px #701214;
-	border-bottom: solid 1px #701214;
+	border-top: solid 1px #004273;
+	border-bottom: solid 1px #004273;
 }
 
 #filter a {
-	color: #701214;
+	color: #004273;
 }
