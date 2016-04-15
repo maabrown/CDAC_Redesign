@@ -213,3 +213,11 @@ h2.title.FAQTitle {
 #FAQ .panel-default > .panel-heading {
 	background-color: #004273;
 }
+
+#FAQ .panel {
+	background-color: #004273;
+}
+
+#FAQ .panel-body {
+	color: white;
+}
