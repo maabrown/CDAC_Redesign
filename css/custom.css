@@ -204,3 +204,12 @@ h2.title.FAQTitle {
 #filter a {
 	color: #004273;
 }
+
+#FAQ a {
+	color:white;
+	font-weight: bold;
+}
+
+#FAQ .panel-default > .panel-heading {
+	background-color: #004273;
+}
