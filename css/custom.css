@@ -173,3 +173,17 @@ h3.courseSubtitle {
 	color: #004273;
 	display: block;
 }
+
+div#whatWeOffer {
+	background: #701214;
+	background-image: none;
+}
+
+div#FAQ {
+	background-image: none;
+	background: #347844;
+}
+
+h2.title.FAQTitle {
+	color: white;
+}
